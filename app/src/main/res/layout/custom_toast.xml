@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#ca393939"
+    android:layout_width="match_parent"
+    android:id="@+id/custom_toast_layout"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/custom_toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="19dp"
+        android:textColor="#f4f4f4"
+        android:text="No Internet Connetion" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retry"
+        android:id="@+id/btn_retry"
+        android:layout_marginLeft="23dp"
+        android:textColor="#fafafa"
+        android:background="#00ffffff"/>
+</LinearLayout>
